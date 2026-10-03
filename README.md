@@ -1,35 +1,229 @@
-# Paul & Malampi Wedding Website
+# 💍 Paul & Malampi Wedding Website
 
-A mobile-first, static and free wedding website for GitHub Pages. One `guest.html` serves all personalized invitations using `?g=guest-slug`.
+A personalized wedding website for the wedding of
 
-## Included
-- 68 personalized guest groups with stable IDs
-- Personal name and party size
-- Countdown, schedule, photo gallery and calendar file
-- Corrected Minsundu Recreation Park link
-- WhatsApp RSVP plus visible phone numbers
-- Personal entry ticket QR on the final section, usable from a screenshot offline
-- Black, ivory and antique-gold design optimized for phones
+**Dr. Paul Kambe**
+&
+**Malampi A. Mbula**
 
-## Publish free with GitHub Pages
-1. Create a public GitHub repository.
-2. Upload everything in this folder to the repository root.
-3. Open Settings > Pages.
-4. Choose Deploy from a branch, main, /(root), then Save.
-5. Open the Pages URL shown by GitHub.
+📅 **21 November 2026**
+📍 **Ndola, Zambia**
 
-## Generate personal invitation QR codes
-After publishing, install Python and run:
+---
 
-```bash
-pip install "qrcode[pil]"
-python generate_qr.py "https://USERNAME.github.io/REPOSITORY"
+## 🌐 Website
+
+Hosted for free using GitHub Pages.
+
+Current Website:
+
+https://paul-malampi-wedding.github.io/paul-malampi-wedding
+
+Each guest receives a personalized invitation link.
+
+Example:
+
+https://paul-malampi-wedding.github.io/paul-malampi-wedding/guest.html?g=mr-and-mrs-bwalya
+
+---
+
+# ✨ Features
+
+The website includes:
+
+✅ Personalized invitations
+
+✅ Individual guest pages
+
+✅ Personalized welcome screen
+
+✅ Wedding intro animation
+
+✅ Countdown to the wedding
+
+✅ Photo gallery
+
+✅ Wedding schedule
+
+✅ Google Maps directions
+
+✅ RSVP via WhatsApp
+
+✅ Personal admission ticket
+
+✅ Individual ticket QR code
+
+✅ Mobile-friendly design
+
+✅ Black, ivory and champagne-gold theme
+
+---
+
+# 📂 Important Files
+
+## Guest List
+
+assets/data/guests.json
+
+Contains:
+
+- guest name
+- group size
+- guest ID
+- slug
+- ticket reference
+
+---
+
+## Website Logic
+
+assets/app.js
+
+Handles:
+
+- guest loading
+- countdown
+- RSVP buttons
+- directions
+- calendar integration
+- gallery
+- ticket downloads
+
+---
+
+## Website Style
+
+assets/css/style.css
+
+Contains the complete visual appearance and animations.
+
+---
+
+## Personal Tickets
+
+assets/tickets
+
+Each guest has a personal admission ticket.
+
+Example:
+
+assets/tickets/mr-and-mrs-bwalya.png
+
+---
+
+## Invitation QR Codes
+
+invitation-qr-codes
+
+Each QR code opens a personalized invitation page.
+
+Example:
+
+invitation-qr-codes/mr-and-mrs-bwalya.png
+
+---
+
+# 👥 Updating the Guest List
+
+Edit:
+
+assets/data/guests.json
+
+Example:
+
+```json
+{
+  "name": "Mr & Mrs Bwalya",
+  "size": 2,
+  "slug": "mr-and-mrs-bwalya",
+  "id": "PM-001",
+  "ticket": "assets/tickets/mr-and-mrs-bwalya.png"
+}
 ```
 
-The final invitation QR codes appear in `qr-codes/`. Upload that folder again if desired, though the website itself does not need it.
+## Important
 
-## Test locally
-```bash
-python -m http.server 8000
-```
-Then open `http://localhost:8000/guest.html?g=mr-mrs-bwalya`. Do not test by double-clicking the HTML because browsers can block loading the local JSON file.
+After invitations have been sent:
+
+DO NOT change:
+
+- slug
+- guest ID
+- ticket filename
+
+Otherwise personal invitation links and QR codes will stop working.
+
+---
+
+# 📱 Sending Invitations
+
+Recommended WhatsApp message:
+
+✨ Paul & Malampi Wedding ✨
+
+Dear Guest,
+
+We are delighted to invite you to celebrate our special day with us.
+
+💌 Open your personal invitation:
+
+[PERSONAL LINK]
+
+Please RSVP before 10 October 2026.
+
+With love,
+
+Paul & Malampi ❤️
+
+---
+
+# 🔄 Future Updates
+
+You can safely update:
+
+- photos
+- animations
+- texts
+- schedule
+- directions
+- RSVP information
+- gallery
+- ticket design
+
+All existing guest links will continue to work.
+
+Do NOT change:
+
+- guest.html
+- slug values
+- repository name
+
+after invitations have been distributed.
+
+---
+
+# 🎨 Theme
+
+Primary colors:
+
+Black:       #09090b
+
+Gold:        #c6a048
+
+Champagne:   #f0d78d
+
+Ivory:       #fbf7ed
+
+---
+
+# ❤️ Created For
+
+Dr. Paul Kambe
+
+&
+
+Malampi A. Mbula
+
+21 November 2026
+
+Ndola, Zambia
