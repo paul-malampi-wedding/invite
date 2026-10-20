@@ -31,7 +31,86 @@ async function loadGuest() {
     return null;
   }
 }
+function showInvitationUnavailable() {
+  document.title = "Invitation unavailable | Paul & Malampi";
+  document.documentElement.style.overflow = "";
 
+  document.body.innerHTML = `
+    <main style="
+      min-height:100svh;
+      display:grid;
+      place-items:center;
+      padding:24px;
+      background:#050506;
+      color:#fbf7ed;
+      font-family:Arial,Helvetica,sans-serif;
+      text-align:center;
+    ">
+      <section style="
+        width:min(100%,520px);
+        padding:56px 28px 46px;
+        border:1px solid rgba(198,160,72,.38);
+        border-radius:220px 220px 18px 18px;
+        background:linear-gradient(180deg,#17130f,#09090b);
+        box-shadow:0 28px 80px rgba(0,0,0,.65);
+      ">
+        <div
+          aria-hidden="true"
+          style="
+            margin-bottom:18px;
+            color:#c6a048;
+            font:400 2rem Georgia,'Times New Roman',serif;
+            letter-spacing:.08em;
+          "
+        >
+          P &amp; M
+        </div>
+
+        <div style="
+          width:64px;
+          height:1px;
+          margin:0 auto 24px;
+          background:#c6a048;
+        "></div>
+
+        <h1 style="
+          margin:0 0 18px;
+          font:400 clamp(2rem,8vw,3rem)/1.1 Georgia,'Times New Roman',serif;
+          color:#f0d78d;
+        ">
+          Invitation unavailable
+        </h1>
+
+        <p style="
+          margin:0 auto 12px;
+          max-width:390px;
+          color:#fbf7ed;
+          font-size:1rem;
+          line-height:1.7;
+        ">
+          This personal invitation link is no longer active.
+        </p>
+
+        <p style="
+          margin:0 auto;
+          color:#cbc4b5;
+          font-size:.9rem;
+          line-height:1.65;
+        ">
+          Please contact the hosts if you believe this is an error.
+        </p>
+
+        <p style="
+          margin:28px 0 0;
+          color:#c6a048;
+          font:italic 1rem Georgia,'Times New Roman',serif;
+        ">
+          21 · 11 · 2026
+        </p>
+      </section>
+    </main>
+  `;
+}
 function renderGuest(guest) {
   if (!guest) return;
 
@@ -207,6 +286,12 @@ function setupGallery() {
 
 (async function init() {
   const guest = await loadGuest();
+
+  if (!guest) {
+    showInvitationUnavailable();
+    return;
+  }
+
   renderGuest(guest);
   startCountdown();
   setupDirections();
