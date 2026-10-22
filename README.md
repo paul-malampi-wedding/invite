@@ -23,7 +23,7 @@ Each guest receives a personalized invitation link.
 
 Example:
 
-https://paul-malampi-wedding.github.io/paul-malampi-wedding/guest.html?g=mr-and-mrs-bwalya
+https://paul-malampi-wedding.github.io/invite/guest.html?g=mr-and-mrs-kloster
 
 ---
 
