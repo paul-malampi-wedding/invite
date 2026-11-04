@@ -189,27 +189,6 @@
     "ticket": "assets/tickets/mr-and-mrs-sakala.png"
   },
   {
-    "name": "Mr & Mrs Chileshe",
-    "size": 2,
-    "slug": "mr-and-mrs-chileshe",
-    "id": "PM-028",
-    "ticket": "assets/tickets/mr-and-mrs-chileshe.png"
-  },
-  {
-    "name": "Ms Mailisi",
-    "size": 1,
-    "slug": "ms-mailisi",
-    "id": "PM-029",
-    "ticket": "assets/tickets/ms-mailisi.png"
-  },
-  {
-    "name": "Ms Jinera",
-    "size": 1,
-    "slug": "ms-jinera",
-    "id": "PM-030",
-    "ticket": "assets/tickets/ms-jinera.png"
-  },
-  {
     "name": "Mrs Susan Sakala",
     "size": 1,
     "slug": "mrs-susan-sakala",
@@ -285,13 +264,6 @@
     "slug": "mr-nkumbi-zimba",
     "id": "PM-041",
     "ticket": "assets/tickets/mr-nkumbi-zimba.png"
-  },
-  {
-    "name": "Ms Musakasa Mbula",
-    "size": 1,
-    "slug": "ms-musakasa-mbula",
-    "id": "PM-042",
-    "ticket": "assets/tickets/ms-musakasa-mbula.png"
   },
   {
     "name": "Mr & Mrs Kasanga",
@@ -406,13 +378,6 @@
     "ticket": "assets/tickets/ms-edina-beenzu.png"
   },
   {
-    "name": "Ms Precious Mbilima",
-    "size": 1,
-    "slug": "ms-precious-mbilima",
-    "id": "PM-059",
-    "ticket": "assets/tickets/ms-precious-mbilima.png"
-  },
-  {
     "name": "Ms Bene Mwambwa",
     "size": 1,
     "slug": "ms-bene-mwambwa",
@@ -446,13 +411,6 @@
     "slug": "ms-chimuka-mwambwa",
     "id": "PM-064",
     "ticket": "assets/tickets/ms-chimuka-mwambwa.png"
-  },
-  {
-    "name": "Mr & Mrs Funa",
-    "size": 2,
-    "slug": "mr-and-mrs-funa",
-    "id": "PM-065",
-    "ticket": "assets/tickets/mr-and-mrs-funa.png"
   },
   {
     "name": "Brig General Francis Kasempa",
@@ -901,6 +859,68 @@
     "slug": "mr-and-mrs-kloster",
     "id": "PM-129",
     "ticket": "assets/tickets/mr-and-mrs-kloster.png"
-  }
-  
+  }, 
+  {
+  "name": "Mr & Mrs Omwah",
+  "size": 2,
+  "slug": "mr-and-mrs-omwah",
+  "id": "PM-130",
+  "ticket": "assets/tickets/mr-and-mrs-omwah.png"
+},
+{
+  "name": "Mr & Mrs Mpona",
+  "size": 2,
+  "slug": "mr-and-mrs-mpona",
+  "id": "PM-131",
+  "ticket": "assets/tickets/mr-and-mrs-mpona.png"
+},
+{
+  "name": "Bishop Eddie & Mrs Chileshe Sibale",
+  "size": 2,
+  "slug": "bishop-eddie-and-mrs-chileshe-sibale",
+  "id": "PM-132",
+  "ticket": "assets/tickets/bishop-eddie-and-mrs-chileshe-sibale.png"
+},
+{
+  "name": "Ms Genara",
+  "size": 1,
+  "slug": "ms-genara",
+  "id": "PM-133",
+  "ticket": "assets/tickets/ms-genara.png"
+},
+{
+  "name": "Mr & Mrs Puma",
+  "size": 2,
+  "slug": "mr-and-mrs-puma",
+  "id": "PM-134",
+  "ticket": "assets/tickets/mr-and-mrs-puma.png"
+},
+{
+  "name": "Mr Mwitwa",
+  "size": 1,
+  "slug": "mr-mwitwa",
+  "id": "PM-135",
+  "ticket": "assets/tickets/mr-mwitwa.png"
+},
+{
+  "name": "Mr & Mrs Charles Kaputulabut",
+  "size": 2,
+  "slug": "mr-and-mrs-charles-kaputulabut",
+  "id": "PM-136",
+  "ticket": "assets/tickets/mr-and-mrs-charles-kaputulabut.png"
+},
+{
+  "name": "Mr Katuta Mbula",
+  "size": 1,
+  "slug": "mr-katuta-mbula",
+  "id": "PM-137",
+  "ticket": "assets/tickets/mr-katuta-mbula.png"
+},
+{
+  "name": "Mr Jim Zimba",
+  "size": 1,
+  "slug": "mr-jim-zimba",
+  "id": "PM-138",
+  "ticket": "assets/tickets/mr-jim-zimba.png"
+}
 ]
