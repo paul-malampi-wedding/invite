@@ -531,13 +531,13 @@
     "id": "PM-082",
     "ticket": "assets/tickets/hilda-mulenga.png"
   },
-  {
-    "name": "Abel Kambe",
-    "size": 1,
-    "slug": "abel-kambe",
-    "id": "PM-083",
-    "ticket": "assets/tickets/abel-kambe.png"
-  },
+ {
+  "name": "WO2 Kambe Abel",
+  "size": 1,
+  "slug": "wo2-kambe-abel",
+  "id": "PM-083",
+  "ticket": "assets/tickets/wo2-kambe-abel.png"
+},
   {
     "name": "Dorica",
     "size": 1,
@@ -630,32 +630,11 @@
     "ticket": "assets/tickets/farai-nkoma.png"
   },
   {
-    "name": "Pst Annie Chishimba",
-    "size": 1,
-    "slug": "pst-annie-chishimba",
-    "id": "PM-097",
-    "ticket": "assets/tickets/pst-annie-chishimba.png"
-  },
-  {
     "name": "Mr & Mrs Pst Chifunda",
     "size": 2,
     "slug": "mr-and-mrs-pst-chifunda",
     "id": "PM-098",
     "ticket": "assets/tickets/mr-and-mrs-pst-chifunda.png"
-  },
-  {
-    "name": "Mr & Mrs Pst Chishimba",
-    "size": 2,
-    "slug": "mr-and-mrs-pst-chishimba",
-    "id": "PM-099",
-    "ticket": "assets/tickets/mr-and-mrs-pst-chishimba.png"
-  },
-  {
-    "name": "Mr & Mrs Pst Mulenga",
-    "size": 2,
-    "slug": "mr-and-mrs-pst-mulenga",
-    "id": "PM-100",
-    "ticket": "assets/tickets/mr-and-mrs-pst-mulenga.png"
   },
   {
     "name": "Mr & Mrs Ngosa",
@@ -670,13 +649,6 @@
     "slug": "mr-and-mrs-lombe",
     "id": "PM-102",
     "ticket": "assets/tickets/mr-and-mrs-lombe.png"
-  },
-  {
-    "name": "Melise Chola",
-    "size": 1,
-    "slug": "melise-chola",
-    "id": "PM-103",
-    "ticket": "assets/tickets/melise-chola.png"
   },
   {
     "name": "Juliet Mukando",
@@ -749,19 +721,19 @@
     "ticket": "assets/tickets/linda-chirwa.png"
   },
   {
-    "name": "David Sakala",
-    "size": 1,
-    "slug": "david-sakala",
-    "id": "PM-114",
-    "ticket": "assets/tickets/david-sakala.png"
-  },
-  {
-    "name": "Dr Chilunano Michael",
-    "size": 1,
-    "slug": "dr-chilunano-michael",
-    "id": "PM-115",
-    "ticket": "assets/tickets/dr-chilunano-michael.png"
-  },
+  "name": "Dr David Sakala",
+  "size": 1,
+  "slug": "dr-david-sakala",
+  "id": "PM-114",
+  "ticket": "assets/tickets/dr-david-sakala.png"
+},
+ {
+  "name": "Dr Chilubano Michael (DHD)",
+  "size": 1,
+  "slug": "dr-chilubano-michael-dhd",
+  "id": "PM-115",
+  "ticket": "assets/tickets/dr-chilubano-michael-dhd.png"
+},
   {
     "name": "Dr Paul Chola",
     "size": 1,
@@ -783,20 +755,20 @@
     "id": "PM-118",
     "ticket": "assets/tickets/dr-puta-chisanga.png"
   },
-  {
-    "name": "Dr Fortune Mumba",
-    "size": 1,
-    "slug": "dr-fortune-mumba",
-    "id": "PM-119",
-    "ticket": "assets/tickets/dr-fortune-mumba.png"
-  },
-  {
-    "name": "Dr Banda Kenneth",
-    "size": 1,
-    "slug": "dr-banda-kenneth",
-    "id": "PM-120",
-    "ticket": "assets/tickets/dr-banda-kenneth.png"
-  },
+ {
+  "name": "Dr Fortune Mumba (DHD)",
+  "size": 1,
+  "slug": "dr-fortune-mumba-dhd",
+  "id": "PM-119",
+  "ticket": "assets/tickets/dr-fortune-mumba-dhd.png"
+},
+{
+  "name": "Dr Banda Kenneth (MS)",
+  "size": 1,
+  "slug": "dr-banda-kenneth-ms",
+  "id": "PM-120",
+  "ticket": "assets/tickets/dr-banda-kenneth-ms.png"
+},
   {
     "name": "Dr Jeff",
     "size": 1,
@@ -831,20 +803,6 @@
     "slug": "matron-jacquiline",
     "id": "PM-125",
     "ticket": "assets/tickets/matron-jacquiline.png"
-  },
-  {
-    "name": "Dr Musupila",
-    "size": 1,
-    "slug": "dr-musupila",
-    "id": "PM-126",
-    "ticket": "assets/tickets/dr-musupila.png"
-  },
-  {
-    "name": "Dr Mikiwe",
-    "size": 1,
-    "slug": "dr-mikiwe",
-    "id": "PM-127",
-    "ticket": "assets/tickets/dr-mikiwe.png"
   },
  {
     "name": "Mr & Mrs  Mukuwa",
@@ -922,5 +880,61 @@
   "slug": "mr-jim-zimba",
   "id": "PM-138",
   "ticket": "assets/tickets/mr-jim-zimba.png"
+},
+  {
+  "name": "Mulenga Kasempa",
+  "size": 1,
+  "slug": "mulenga-kasempa",
+  "id": "PM-139",
+  "ticket": "assets/tickets/mulenga-kasempa.png"
+},
+{
+  "name": "Mrs Musonda Annie",
+  "size": 1,
+  "slug": "mrs-musonda-annie",
+  "id": "PM-140",
+  "ticket": "assets/tickets/mrs-musonda-annie.png"
+},
+{
+  "name": "Alice Kapeso",
+  "size": 1,
+  "slug": "alice-kapeso",
+  "id": "PM-141",
+  "ticket": "assets/tickets/alice-kapeso.png"
+},
+{
+  "name": "Mrs Harrison",
+  "size": 1,
+  "slug": "mrs-harrison",
+  "id": "PM-142",
+  "ticket": "assets/tickets/mrs-harrison.png"
+},
+{
+  "name": "Dr Chibwaya",
+  "size": 1,
+  "slug": "dr-chibwaya",
+  "id": "PM-143",
+  "ticket": "assets/tickets/dr-chibwaya.png"
+},
+{
+  "name": "Ms Mambwe",
+  "size": 1,
+  "slug": "ms-mambwe",
+  "id": "PM-144",
+  "ticket": "assets/tickets/ms-mambwe.png"
+},
+{
+  "name": "Dr Ruth Zulu",
+  "size": 1,
+  "slug": "dr-ruth-zulu",
+  "id": "PM-145",
+  "ticket": "assets/tickets/dr-ruth-zulu.png"
+},
+{
+  "name": "Dr Chiti Bwembya",
+  "size": 1,
+  "slug": "dr-chiti-bwembya",
+  "id": "PM-146",
+  "ticket": "assets/tickets/dr-chiti-bwembya.png"
 }
 ]
